@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:power_tailor/src/common_widgets/custom_textfield.dart';
 import 'package:power_tailor/src/common_widgets/custom_button.dart';
 import 'package:power_tailor/src/constants/colors.dart';
@@ -26,11 +27,7 @@ class _LoginState extends State<Login> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 backIcon(context, onPressed: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const LoginOrSignUp(),
-                      ));
+                Get.back();
                 }),
                 const Padding(
                   padding: EdgeInsets.only(right: 20),

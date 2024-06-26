@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 import 'package:power_tailor/src/common_widgets/custom_button.dart';
 import 'package:power_tailor/src/constants/colors.dart';
 import 'login_or_signup.dart';
@@ -27,11 +29,7 @@ class Start extends StatelessWidget {
               ///start button
               customButton(
                   onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => const LoginOrSignUp(),
-                        ));
+                    Get.to(const LoginOrSignUp());
                   },
                   textButton: "شروع کنید"),
               const Column(
