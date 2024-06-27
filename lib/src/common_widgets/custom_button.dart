@@ -9,10 +9,14 @@ Widget customButton(
     double? height}) {
   return ElevatedButton(
     style: ButtonStyle(
+        padding: const MaterialStatePropertyAll(EdgeInsets.symmetric(
+          horizontal: 20, 
+          vertical: 10, 
+        )),
         backgroundColor: const MaterialStatePropertyAll(p2),
-        fixedSize: MaterialStatePropertyAll(Size(width ?? 200, height ?? 80)),
+        // fixedSize: MaterialStatePropertyAll(Size(width ?? 200, height ?? 80)),
         shape: MaterialStatePropertyAll(
-            RoundedRectangleBorder(borderRadius: BorderRadius.circular(23)))),
+            RoundedRectangleBorder(borderRadius: BorderRadius.circular(15)))),
     onPressed: onPressed,
     child: Text(
         textAlign: TextAlign.center,
