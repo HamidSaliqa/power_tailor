@@ -5,7 +5,6 @@ import 'package:get/get_core/src/get_main.dart';
 import 'package:power_tailor/src/common_widgets/custom_button.dart';
 import 'package:power_tailor/src/constants/colors.dart';
 import 'package:power_tailor/src/screens/sign_up.dart';
-import 'package:power_tailor/src/screens/start.dart';
 import '../common_widgets/back_button.dart';
 import 'login.dart';
 
@@ -30,10 +29,13 @@ class LoginOrSignUp extends StatelessWidget {
                 height: 200,
                 color: p2,
               ),
+              SizedBox(
+                height: 60,
+              ),
               customButton(
                 textButton: "ورورد به حساب",
                 onPressed: () {
-                  Get.to(const Login());
+                  Get.to(Login());
                 },
               ),
               customButton(

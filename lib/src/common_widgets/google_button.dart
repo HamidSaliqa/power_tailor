@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart'; 
+
 
 import '../constants/colors.dart';
 googleButton() {
@@ -25,9 +27,13 @@ googleButton() {
       child: const Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Icon(Icons.g_mobiledata),
-
-          Text("رفتن به گوگل"),
+         FaIcon(FontAwesomeIcons.google, size: 40),
+          Text("رفتن به گوگل",
+          
+           style: TextStyle(
+            fontSize: 20, 
+            fontWeight: FontWeight.bold
+          ),),
         ],
       ),
     ),
