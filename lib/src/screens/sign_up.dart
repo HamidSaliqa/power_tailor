@@ -5,7 +5,6 @@ import 'package:power_tailor/src/common_widgets/custom_textfield.dart';
 import '../common_widgets/back_button.dart';
 import '../common_widgets/google_button.dart';
 import '../constants/colors.dart';
-import 'login_or_signup.dart';
 
 class SignUp extends StatefulWidget {
   const SignUp({super.key});
