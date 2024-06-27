@@ -1,16 +1,13 @@
-# power_tailor
+# Power Tailor
 
-A new Flutter project.
+Power Tailor is a Flutter application designed as a comprehensive Tailoring Management System. It efficiently manages customers, customer orders, storehouse inventory, and more.
 
-## Getting Started
+### Features
 
-This project is a starting point for a Flutter application.
+* **User Authentication**: Secure login for both Admin and Users.
+* **Customer Management**: Store and manage customer information.
+* **Order Management**: Store and track customer orders.
+* **Storehouse Management**: Manage storehouse inventory (if applicable).
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### [Protoype Design](https://www.figma.com/design/2siPCsJ5nBnO5dvHIBLkip/Untitled?node-id=1-4&t=1rxFiw5K2VFWCowM-0)
